@@ -1,0 +1,17 @@
+/* frontend/src/styles.css */
+body { background: #0f1724; color: #e6eef8; font-family: Arial, sans-serif; margin:0; padding:20px;}
+.container { max-width: 900px; margin: 0 auto; }
+h1 { font-size: 1.8rem; margin-bottom: 12px; color: #fff; }
+.panel { background: #0b1220; padding: 18px; border-radius: 8px; margin-bottom: 16px; box-shadow: 0 4px 14px rgba(0,0,0,0.6);}
+textarea { width:100%; min-height: 100px; padding: 8px; border-radius:6px; border:1px solid #223; background:#0b1220; color:#e6eef8; }
+.controls { margin-top: 8px; display:flex; gap:8px; align-items:center; }
+button { background:#06b6d4; color:#042a2b; padding:8px 12px; border:none; border-radius:6px; cursor:pointer; }
+button:hover { opacity:0.9; }
+.status { margin-left:12px; color:#94a3b8; }
+.result { display:flex; gap:16px; margin-top:12px; align-items:center; }
+.emoji { width:80px; height:80px; font-size:44px; display:flex; align-items:center; justify-content:center; border-radius:8px; }
+.emoji.positive { background: #e6fffa; color:#0f766e; }
+.emoji.negative { background: #ffe6e6; color:#b91c1c; }
+.result-info { font-size:0.95rem; color:#dbeafe;}
+.footer { margin-top: 16px; font-size: 0.9rem; color:#94a3b8; }
+.metrics pre { background:#071122; padding:12px; border-radius:8px; color:#cfe8ff; }
